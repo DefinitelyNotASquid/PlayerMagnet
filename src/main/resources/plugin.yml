@@ -1,0 +1,15 @@
+name: AusminePlayerMagnet
+version: ${project.version}
+api-version: 1.16
+main: com.mith.AusminePlayerMagnet.AusminePlayerMagnet
+commands:
+  demagnet:
+      description: Global demagnetiser.
+      usage: /<command>
+      permission: playermagnet.demagnet
+      permission-message: You don't have permission to use the player magnet.
+  magnet:
+      description: Turn the player magnet on or off.
+      usage: /<command> <on|off>
+      permission: playermagnet.magnet
+      permission-message: You don't have permission to use the player magnet.
