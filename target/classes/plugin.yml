@@ -1,5 +1,5 @@
 name: AusminePlayerMagnet
-version: ${project.version}
+version: 1.5
 api-version: 1.17
 main: com.mith.AusminePlayerMagnet.AusminePlayerMagnet
 commands:
